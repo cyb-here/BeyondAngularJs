@@ -1,0 +1,9 @@
+##Two way binding
+Model & View are in sync
+
+##Module Creation
+var myApp = angular.module("moduleName",[other,modules]);
+
+##Controller Creation
+Is a js construcion function, job of controller is to build a model for the view to display.
+Controllers calls the webServer which retrives data from the Database.
